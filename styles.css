@@ -1,0 +1,45 @@
+
+body{
+    background-color: red;
+    /* display: grid;
+    grid-template-columns: 200px 300px;
+    grid-auto-rows:minmax(150px,auto) ;
+    grid-gap: 20px; */
+}
+
+.sidebar{
+background-color: aqua;
+height: 700px;
+width: 200px;
+
+}
+
+.mainbar{
+background-color: blueviolet;
+/* display: grid;
+grid-column: 1/4;
+grid-row: 1/2; */
+width: 500px;
+height: 200px;
+
+}
+
+.minibar{
+    padding: 2px;
+    background-color: cadetblue;
+    width: 300px;
+    height: 150px;
+}
+
+
+.subpart{
+background-color: brown;
+width: 150px;
+height: 150px;
+}
+
+
+
+
+
+
