@@ -6,31 +6,22 @@ body>main{
 .mainbar{
     grid-area: header;
     background-color: red;
-    /* height: 50%; */
+    height: 50%;
   }
   .sidebar {
     background-color: rgb(15, 124, 123);
     grid-area: main;
-    /* height: 65%; */
+    height: 65%;
   }
-.sidebar2{
-    background-color: blue;
-
-}
-.sidebar3{
-    background-color: aqua;
-}
-
-
   .minibar {
     background-color: rgb(19, 76, 167);
     grid-area: sidebar;
-    /* height: 70%; */
+    height: 70%;
   }
   .subpart{
     background-color: rgb(123, 0, 255);
     grid-area: footer;
-    /* height: 50%; */
+    height: 50%;
   }
   
 .allParts{
@@ -47,6 +38,5 @@ body>main{
       "main header header header"
       "main header header header";
       /* grid-gap: 20px; */
+      
 }
-
-

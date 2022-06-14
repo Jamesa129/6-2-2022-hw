@@ -1,7 +1,5 @@
 
 
-
-
 class App extends React.Component{
     render(){
         return(
@@ -10,9 +8,8 @@ class App extends React.Component{
                 <Subpart text = "dos"/>
                 <Subpart text = "tres"/>
 
-                <Sidebar/>
+                <Sidebar text = "sidebarrr!!"/>
                 <Mainbar/>    
-
             </div>
         )
     }
@@ -21,7 +18,16 @@ class App extends React.Component{
 class Sidebar extends React.Component{
     render(){
         return(
-            <div className="sidebar">Side bar</div>
+            <div className="sidebar">
+            Side bar
+                <div className="sidebar2">
+                    uno!
+                    <div className="sidebar3"> 
+                        dos!
+                    </div>
+                
+                </div>
+            </div>
             )
           
         }
